@@ -1,10 +1,10 @@
 {
   "IsEncrypted": false,
   "Values": {
-    "AzureWebJobsStorage": "<STORAGE_CONNECTION_STRING>",
-    "AzureCosmosDBConnectionString": "<COSMOSDB_CONNECTION_STRING>",
-    "AzureCosmosDBMasterKey": "<COSMOSDB_MASTER_KEY>",
-    "AzureSignalRConnectionString": "<SIGNALR_CONNECTION_STRING>",
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=mslsigrstorage13d7d8d6a9;AccountKey=NzPSxJri4NKgo2qw92+xe8ObHdCfGcMXfIw1I56SIbOc/NDJ9jHe4mEBgBasqesGrEjc2dtSSqSG+AStf58GYQ==;BlobEndpoint=https://mslsigrstorage13d7d8d6a9.blob.core.windows.net/;FileEndpoint=https://mslsigrstorage13d7d8d6a9.file.core.windows.net/;QueueEndpoint=https://mslsigrstorage13d7d8d6a9.queue.core.windows.net/;TableEndpoint=https://mslsigrstorage13d7d8d6a9.table.core.windows.net/",
+    "AzureCosmosDBConnectionString": "AccountEndpoint=https://msl-sigr-cosmos-959229fe1c.documents.azure.com:443/;AccountKey=cEg3kmUPGa6Pyu9Kk1st8iTdaDqhDA4ITPIUvRUPsSOkU3mB15bInCOchjQhluYlqwrfnrigDCrLACDbovoFjw==",
+    "AzureCosmosDBMasterKey": "cEg3kmUPGa6Pyu9Kk1st8iTdaDqhDA4ITPIUvRUPsSOkU3mB15bInCOchjQhluYlqwrfnrigDCrLACDbovoFjw==",
+    "AzureSignalRConnectionString": "Endpoint=https://msl-sigr-signalr0e44264d8d.service.signalr.net;AccessKey=ZaHOz+ip1cP4fn5ZGxmDcGZkyYKOzXBIX3ag0oGcd1E=;Version=1.0",
     "FUNCTIONS_WORKER_RUNTIME": "node"
   },
   "Host" : {
